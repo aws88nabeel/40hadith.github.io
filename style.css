@@ -1,0 +1,104 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Almarai', sans-serif;
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
+
+.border {
+
+  padding: 10px;
+}
+.buffer{
+
+  height: 50px;
+}
+
+hr{
+
+  border-color: aliceblue;
+  border-width: 2px;
+  max-width: 100px;
+}
+
+h1 {
+
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+h3 {
+	color: aliceblue;
+  font-size: 2rem;
+	
+}
+
+p{
+
+  color: aliceblue;
+  font-size: 1.5rem; 
+
+
+}
+.grid-wrapper {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.btn {
+
+  font-weight: 700;
+  border-radius: 200px;
+}
+
+.btn:hover {
+
+  color: aliceblue;
+}
+
+.btn-light:hover {
+
+  background-color: black;
+  border-width: 1.2px;
+
+}
+
+.btn-xl {
+
+  padding: 1rem 2rem;
+}
+.box {
+    background-color: #444;
+    padding: 20px;
+    margin: 20px;
+}
+.zone {
+    cursor:pointer;
+    color:#FFF;
+    font-size:20px;
+    text-align: right;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(7deg);
+    -moz-transform:rotate(7deg);
+    -o-transform:rotate(7deg);
+    transform:rotate(7deg);
+}
